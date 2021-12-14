@@ -1,0 +1,9 @@
+#mainTextBox {
+    background: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 20px;
+    opacity: 75%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
