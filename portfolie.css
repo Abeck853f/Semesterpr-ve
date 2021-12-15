@@ -6,7 +6,7 @@
     padding: 30px;
     margin: 20px;
     text-align: center;
-    opacity: 70%;
+    opacity: 100%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -16,7 +16,7 @@
     border-radius: 25px;
     padding: 30px;
     margin: 20px;
-    opacity: 70%;
+    opacity: 100%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -25,4 +25,8 @@
   background-image: url('images/bark.jfif');
   background-size: cover ;
 }
+#billede1{
+  width: 80%;
+}
+
 }
