@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px){
 
-#Velkommen{
+#Overskrifter{
   background: rgb(0, 0, 0);
     border-radius: 25px;
     padding: 30px;
@@ -9,10 +9,12 @@
     opacity: 100%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #tekstbox {
-    background: rgb(0, 0, 0);
+    background: rgb(100, 100, 100);
     border-radius: 25px;
     padding: 30px;
     margin: 20px;
@@ -25,8 +27,32 @@
   background-image: url('images/bark.jfif');
   background-size: cover ;
 }
-#billede1{
+#Anders{
   width: 80%;
+  
+}
+#NehmapIcon{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#TangoIcon{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ZumbaIcon{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#Hvem{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
 }
