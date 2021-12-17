@@ -1,5 +1,4 @@
-@media only screen and (max-width: 600px){
-
+  
 #Overskrifter{
   background: rgb(0, 0, 0);
     border-radius: 25px;
@@ -10,7 +9,7 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #tekstbox {
@@ -21,6 +20,7 @@
     opacity: 100%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
   }
 #body{
   background-color: gray;
@@ -28,8 +28,10 @@
   background-size: cover ;
 }
 #Anders{
-  width: 80%;
-  
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #NehmapIcon{
   width: 40%;
@@ -53,6 +55,80 @@
 #Hvem{
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
 }
+#Hvor{
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 900px){
+
+#Overskrifter{
+  background: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    opacity: 100%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#Tekstbox {
+    background: rgb(100, 100, 100);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 20px;
+    opacity: 100%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+  }
+
+#Body{
+  background-color: gray;
+  background-image: url('images/bark.jfif');
+  background-size: cover ;
+}
+#Anders{
+  width: 200px;
+  display: block;
+  float: right; 
+}
+
+#NehmapIcon{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#TangoIcon{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ZumbaIcon{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Hvem{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+#Hvor{
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+
 }
