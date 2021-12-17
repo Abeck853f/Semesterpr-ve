@@ -1,5 +1,5 @@
   
-#Overskrifter{
+.Overskrifter{
   background: rgb(0, 0, 0);
     border-radius: 25px;
     padding: 30px;
@@ -12,7 +12,7 @@
     font-size: 30px;
 }
 
-#tekstbox {
+.tekstbox {
     background: rgb(100, 100, 100);
     border-radius: 25px;
     padding: 30px;
@@ -22,42 +22,42 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
   }
-#body{
+.body{
   background-color: gray;
   background-image: url('images/bark.jfif');
   background-size: cover ;
 }
-#Anders{
+.Anders{
   width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#NehmapIcon{
+.NehmapIcon{
   width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#TangoIcon{
+.TangoIcon{
   width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#ZumbaIcon{
+.ZumbaIcon{
   width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#Hvem{
+.Hvem{
   text-align: center;
   font-weight: bold;
   font-size: 40px;
 }
-#Hvor{
+.Hvor{
   text-align: center;
   font-weight: normal;
   font-size: 20px;
@@ -65,7 +65,7 @@
 
 @media only screen and (min-width: 900px){
 
-#Overskrifter{
+.Overskrifter{
   background: rgb(0, 0, 0);
     border-radius: 25px;
     padding: 30px;
@@ -78,7 +78,7 @@
     font-size: 40px;
 }
 
-#Tekstbox {
+.Tekstbox {
     background: rgb(100, 100, 100);
     border-radius: 25px;
     padding: 30px;
@@ -89,42 +89,42 @@
     font-size: 50px;
   }
 
-#Body{
+.Body{
   background-color: gray;
   background-image: url('images/bark.jfif');
   background-size: cover ;
 }
-#Anders{
+.Anders{
   width: 200px;
   display: block;
   float: right; 
 }
 
-#NehmapIcon{
+.NehmapIcon{
   width: 15%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#TangoIcon{
+.TangoIcon{
   width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#ZumbaIcon{
+.ZumbaIcon{
   width: 15%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#Hvem{
+.Hvem{
   text-align: center;
   font-weight: bold;
   font-size: 40px;
 }
-#Hvor{
+.Hvor{
   text-align: center;
   font-weight: normal;
   font-size: 20px;
